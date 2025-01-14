@@ -28,6 +28,9 @@ const pavingData = {
     products: {
       "60": [
         { name: "PRIZMA 6 CLASSIC", price: { Grey: 8.6, Red_Brown: 9.55 }, paletteArea: 11.88, paletteWeight: 1600 }
+      ],
+      "80": [
+        { name: "PRIZMA 8 CLASSIC", price: { Grey: 9.4 }, paletteArea: 11.88, paletteWeight: 1600 }
       ]
     }
   },
