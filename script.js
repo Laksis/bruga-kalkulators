@@ -18,7 +18,7 @@ const pavingData = {
     transportOptions: {
       truck: { name: "Fūre (24t)", minPrice: 120, costPerKm: 1.2, maxLoad: 24000 },
       crane: { name: "Manipulātors bez piekabes (12t)", minPrice: 120, costPerKm: 1.5, maxLoad: 12000 },
-      crane_trailer: { name: "Manipulātors ar piekabi (30t)", minPrice: 150, costPerKm: 1.8, maxLoad: 23000 }
+      crane_trailer: { name: "Manipulātors ar piekabi (23t)", minPrice: 150, costPerKm: 1.8, maxLoad: 23000 }
     },
     returnTransport: {
       truck: { minPrice: 120, costPerKm: 0.8, capacity: 520 },
