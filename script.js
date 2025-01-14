@@ -21,9 +21,9 @@ const pavingData = {
       crane_trailer: { name: "Manipulātors ar piekabi (23t)", minPrice: 150, costPerKm: 1.8, maxLoad: 23000 }
     },
     returnTransport: {
-      truck: { minPrice: 120, costPerKm: 0.8, capacity: 520 },
-      crane: { minPrice: 120, costPerKm: 1.0, capacity: 210 },
-      bus: { minPrice: 90, costPerKm: 0.5, capacity: 22 }
+      truck: { minPrice: 120, costPerKm: 1.4, capacity: 520 },
+      crane: { minPrice: 120, costPerKm: 1.1, capacity: 210 },
+      bus: { minPrice: 90, costPerKm: 0.85, capacity: 22 }
     },
     products: {
       "60": [
