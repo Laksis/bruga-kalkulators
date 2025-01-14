@@ -1,0 +1,44 @@
+
+            { name: "PRIZMA 6 CLASSIC", price: { natural: 12.1, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "PRIZMA 6 COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "VICTORIAN 6 MODERN 230x200x60 230x100x60", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "MOSAIC MITAVA 6 COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "MOSAIC SCANDINAVIAN 6 MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "MOSAIC DOBELE 6 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "NOSTAL 6 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR FIELD COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR BRICK MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "POLO 150+ MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "POLO 300+ MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "PRIZMA 6 GUIDELINE CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "PRIZMA 6 TACTILE CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 }
+
+
+
+
+
+
+te ir 80mm produkti:
+            { name: "DEKOR 150 MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 150 COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 300 MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 300+ MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 600 MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 160 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 240 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "TILE 8 MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "EKO CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "UNI 8 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "UNICOLOK 8 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "TAVR 8 MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "TAVR 8 COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "BERMUDA CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "BARONS 360 COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "BARONS 240 COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "MOSAIC MITAVA 8 COMFORT", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "MOSAIC SCANDINAVIAN 8 MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "MOSAIC DOBELE 8 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "NOSTAL 8 CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "PRIZMA 8 GUIDELINE CLASSIC", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 300+ GUIDELINE MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 },
+            { name: "DEKOR 300+ TACTILE MODERN", price: { natural: 9.4, single_color: 10.4, colormix: 12.1, stone_texture: 13.1, washed: 11.2 }, paletteArea: 8.64, paletteWeight: 1598 }

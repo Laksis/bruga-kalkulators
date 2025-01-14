@@ -1,0 +1,163 @@
+/* Vispārējais stils */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #171713;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+h1, h2 {
+  color: #E56D2B;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+main {
+  width: 100%;
+  max-width: 800px;
+}
+
+form {
+  background: #FFFFFF;
+  color: #171713;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: left;
+  margin: 20px auto;
+}
+
+fieldset {
+  border: 1px solid #E56D2B;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+legend {
+  color: #E56D2B;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input, select {
+  display: block;
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #E56D2B;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+button {
+  background-color: #E56D2B;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #C24E20;
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#result {
+  background: #FFFFFF;
+  color: #171713;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+  text-align: left;
+}
+
+#result p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#result span {
+  color: #171713;
+}
+
+#returnOptions {
+  margin-top: 10px;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center; /* Vertikāli centrē checkbox un tekstu */
+  gap: 8px; /* Atstarpes starp checkbox un tekstu */
+  margin-top: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+  margin: 0; /* Noņem noklusējuma margin */
+  width: auto; /* Checkbox izmēru atstāj pēc noklusējuma */
+  height: auto; /* Saglabā dabisko checkbox izmēru */
+}
+
+.checkbox-container label {
+  font-weight: bold; /* Pielāgo tekstu esošajam dizainam */
+  color: inherit; /* Saglabā teksta krāsu no vecā stila */
+  margin: 0; /* Noņem lieku noklusējuma margin */
+}
+
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  #result {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 10px;
+  }
+
+  button {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  #result {
+    padding: 10px;
+  }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bruģa Cenas Kalkulators</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <h1>BRUĢA IZMAKSU KALKULĀTORS</h1>
+    <button type="button" onclick="resetCalculator()">Atiestatīt</button>
+
+    <form id="calculator">
+      <fieldset>
+        <legend>BRUĢA VEIDS</legend>
+        <label for="manufacturer">Ražotājs:</label>
+        <select id="manufacturer" onchange="updateHeights()" required>
+          <option value="brikers">Brikers</option>
+          <option value="betono_mozaika">Betono mozaika</option>
+        </select>
+
+        <label for="height">Bruģa Augstums (mm):</label>
+        <select id="height" onchange="updatePavingOptions()" required></select>
+
+        <label for="paving">Bruģa Nosaukums:</label>
+        <select id="paving" required></select>
+
+        <label for="color">Bruģa krāsa / virsma:</label>
+        <select id="color" required></select>
+      </fieldset>
+
+      <fieldset>
+        <legend>BRUĢA LAUKUMS</legend>
+        <label for="area">Kvadratūra (m²):</label>
+        <input type="number" id="area" min="0" step="0.01" required>
+
+        <label for="cutting">Piezāģes (%):</label>
+        <input type="number" id="cutting" value="0" min="0" max="100" required>
+      </fieldset>
+
+      <fieldset>
+        <legend>PIEGĀDES INFORMĀCIJA</legend>
+        <label for="distance">Piegādes Attālums Vienā Virzienā (km):</label>
+        <input type="number" id="distance" min="0" step="0.1" required>
+        <label for="delivery">Piegādes Veids:</label>
+        <select id="delivery" required>
+          <option value="truck">Fūre (24t)</option>
+          <option value="crane">Manipulātors bez piekabes (20t)</option>
+          <option value="crane_trailer">Manipulātors ar piekabi (30t)</option>
+        </select>
+      </fieldset>
+
+
+      <fieldset>
+        <legend>PALEŠU ATGRIEŠANA</legend>
+        <div class="checkbox-container">
+          <input type="checkbox" id="returnPalettes" onchange="toggleReturnOptions()">
+          <label for="returnPalettes">Vai vēlaties atgriezt paletes?</label>
+        </div>
+
+        <div id="returnOptions" style="display: none;">
+          <label for="returnType">Atgriešanas Transporta Veids:</label>
+          <select id="returnType">
+            <option value="bus">Kravas buss (22 paletes)</option>
+            <option value="crane">Manipulātors (210 paletes)</option>
+            <option value="truck">Fūra (520 paletes)</option>
+          </select>
+
+          <label for="broken">Sabojātās Paletes (%):</label>
+          <input type="number" id="broken" value="0" min="0" max="100" step="1">
+        </div>
+      </fieldset>
+
+      <button type="button" onclick="calculate()">Aprēķināt</button>
+    </form>
+
+    <section>
+      <h2>IZMAKSU REZULTĀTS</h2>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
