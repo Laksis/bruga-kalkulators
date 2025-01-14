@@ -128,7 +128,7 @@ button:hover {
 }
 
 
-@/* Mobilajām ierīcēm */
+/* Mobilajām ierīcēm */
 @media (max-width: 768px) {
   body {
     padding: 8px;
