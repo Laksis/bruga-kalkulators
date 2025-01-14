@@ -74,7 +74,7 @@ button {
   padding: 10px;
   transition: transform 0.2s, box-shadow 0.2s;
   width: 100%;
-  max-width: 500px;
+  
   margin: 0 auto;
   border-radius: 4px;
 }
@@ -128,36 +128,45 @@ button:hover {
 }
 
 
+@/* Mobilajām ierīcēm */
 @media (max-width: 768px) {
   body {
-    padding: 10px;
-  }
-
-  form {
-    padding: 15px;
-  }
-
-  button {
-    font-size: 14px;
     padding: 8px;
   }
 
+  form {
+    padding: 12px;
+  }
+
+  button {
+    font-size: 13px;
+    padding: 6px;
+  }
+
   #result {
-    padding: 15px;
+    padding: 12px;
+  }
+
+  h1, h2 {
+    font-size: 1.4em;
   }
 }
 
 @media (max-width: 480px) {
   form {
-    padding: 10px;
+    padding: 8px;
   }
 
   button {
-    font-size: 12px;
-    padding: 6px;
+    font-size: 20px;
+    padding: 5px;
   }
 
   #result {
-    padding: 10px;
+    padding: 8px;
+  }
+
+  h1, h2 {
+    font-size: 1.5em;
   }
 }
