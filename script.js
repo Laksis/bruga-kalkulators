@@ -35,18 +35,18 @@ const pavingData = {
     heights: ["60"],
     paletteCost: 12,
     transportOptions: {
-      truck: { name: "Fūre (22t)", minPrice: 130, costPerKm: 1.3, maxLoad: 22000 },
-      crane: { name: "Manipulātors bez piekabes (18t)", minPrice: 140, costPerKm: 1.6, maxLoad: 18000 },
-      crane_trailer: { name: "Manipulātors ar piekabi (28t)", minPrice: 160, costPerKm: 1.9, maxLoad: 28000 }
+      truck: { name: "Fūre (24t)", minPrice: 140, costPerKm: 1, maxLoad: 24000 },
+      crane: { name: "Manipulātors bez piekabes (12t)", minPrice: 140, costPerKm: 1.4, maxLoad: 12000 },
+      crane_trailer: { name: "Manipulātors ar piekabi (23t)", minPrice: 160, costPerKm: 1.5, maxLoad: 23000 }
     },
     returnTransport: {
-      truck: { minPrice: 60, costPerKm: 0.9, capacity: 520 },
-      crane: { minPrice: 70, costPerKm: 1.1, capacity: 210 },
-      bus: { minPrice: 40, costPerKm: 0.6, capacity: 22 }
+      truck: { minPrice: 120, costPerKm: 1, capacity: 520 },
+      crane: { minPrice: 120, costPerKm: 1.4, capacity: 210 },
+      bus: { minPrice: 70, costPerKm: 0.85, capacity: 22 }
     },
     products: {
       "60": [
-        { name: "PRIZMA 6 ar fāzi", price: { Pelēks: 10, single_color: 11 }, paletteArea: 8.64, paletteWeight: 1598 }
+        { name: "PRIZMA 6 ar fāzi", price: { Pelēks: 10, single_color: 11 }, paletteArea: 11.88, paletteWeight: 1600 }
       ]
     }
   }
